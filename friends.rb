@@ -5,3 +5,13 @@ numbers.each do |number|
     p number
   end
 end
+
+def numbers_cap(num, limit)
+    if num < limit
+      p num
+    end
+end
+
+numbers.each do |number|
+  numbers_cap(number, 60)
+end
